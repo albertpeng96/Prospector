@@ -80,7 +80,7 @@ public class Prospector : MonoBehaviour
         //make them invisible
         ShowResultGTs(false);
 
-        go = GameObject.Find("HighScore");
+        go = GameObject.Find("highscore");
         string hScore = "High Score: " + Utils.AddCommasToNumber(HIGH_SCORE);
         go.GetComponent<GUIText>().text = hScore;
     }
